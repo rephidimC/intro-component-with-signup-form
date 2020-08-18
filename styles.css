@@ -1,0 +1,183 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+.container {
+  position: relative;
+}
+
+.desktop-background {
+  width: 100%;
+  height: 595px;
+}
+
+.mobile-background {
+  display: none;
+}
+
+.red-layer {
+  height: 595px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  /* background-color: hsl(0, 100%, 74%); */
+  background-color: red;
+  opacity: 50%;
+}
+
+.content {
+  position: absolute;
+  top: 0.5rem;
+  padding: 2% 10%;
+}
+
+.inline {
+  display: inline-block;
+  max-width: 47%;
+  color: white;
+}
+
+.text {
+  margin-right: 5%;
+  margin-top: 7.5rem;
+}
+
+.learn {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.watch {
+  position: relative;
+  bottom: 1rem;
+}
+
+.see {
+  margin-top: 0.5rem;
+}
+
+.input-side {
+  vertical-align: top;
+}
+
+.try {
+  background-color: hsl(248, 32%, 49%);
+  width: 28rem;
+  height: 3rem;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+  margin-bottom: 1.5rem;
+}
+
+.try-text {
+  position: relative;
+  top: 1rem;
+  font-size: 0.8rem;
+}
+
+.span-try {
+  font-weight: 800;
+}
+
+.input-field {
+  background-color: white;
+  width: 28rem;
+  height: 27rem;
+  border-radius: 10px;
+  padding-top: 1rem;
+}
+
+input {
+  display: block;
+  width: 22rem;
+  height: 2.5rem;
+  margin: 2rem 2rem;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding-left: 2rem;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(246, 25%, 77%);
+}
+
+.error {
+  position: absolute;
+  right: 15.5rem;
+  display: none;
+}
+
+.first-name {
+  top: 10.4rem;
+}
+
+.error-img {
+  position: relative;
+  left: 8rem;
+  top: 0.25rem;
+}
+
+.error-text {
+  font-style: italic;
+  font-size: 0.7rem;
+  color: red;
+}
+
+.last-name {
+  top: 15.1rem;
+}
+
+.email {
+  top: 19.9rem;
+}
+
+.error-email {
+  left: 9.3rem;
+}
+
+.password {
+  top: 24.8rem;
+}
+
+.error-password {
+  left: 7.75rem;
+}
+
+button {
+  width: 24.2rem;
+  height: 3rem;
+  background-color: hsl(154, 59%, 51%);
+  margin: 0 2rem 1rem 2rem;
+  border-radius: 5px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  box-shadow: 0px 7px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(246, 25%, 77%);
+}
+
+.caption {
+  color: hsl(0, 100%, 74%);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+}
+
+.caption-span {
+  color: black;
+  font-size: 0.6rem;
+  font-weight: 400;
+}
+
+.attribution {
+  margin: 0rem auto 0.2rem auto;
+}
