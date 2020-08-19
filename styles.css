@@ -181,3 +181,102 @@ button {
 .attribution {
   margin: 0rem auto 0.2rem auto;
 }
+
+@media (max-width: 375px) {
+  .desktop-background {
+    display: none;
+  }
+
+  .mobile-background {
+    display: block;
+    max-width: 100%;
+  }
+
+  .red-layer {
+    height: 96%;
+  }
+
+  .inline {
+    display: block;
+    max-width: 100%;
+  }
+
+  .text {
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  .content {
+    padding: 23% 5%;
+    top: 0.1rem;
+  }
+
+  .learn {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .watch {
+    bottom: 0.5rem;
+  }
+
+  .see {
+    text-align: center;
+  }
+
+  .try {
+    width: 20rem;
+    height: 5rem;
+    margin-top: 4rem;
+  }
+
+  .try-text {
+    max-width: 50%;
+    top: 1rem;
+    left: 4.6rem;
+    line-height: 2;
+  }
+
+  .input-field {
+    width: 20rem;
+    padding-top: 1px;
+  }
+
+  input {
+    width: 15.4rem;
+    margin: 1.5rem 1.2rem;
+  }
+
+  .error {
+    right: 2.5rem;
+  }
+
+  .first-name {
+    top: 31rem;
+  }
+
+  .last-name {
+    top: 35.4rem;
+  }
+
+  .email {
+    top: 39.6rem;
+  }
+
+  .password {
+    top: 43.8rem;
+  }
+
+  button {
+    width: 15rem;
+    position: relative;
+    left: 0.5rem;
+  }
+
+  .caption {
+    max-width: 68%;
+    text-align: center;
+    position: relative;
+    left: 3.2rem;
+  }
+}
