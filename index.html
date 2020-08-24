@@ -9,22 +9,18 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <link rel="stylesheet" href="styles.css">
-
   <title>Frontend Mentor | Intro component with sign up form</title>
-
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution {
       font-size: 11px;
       text-align: center;
     }
-
     .attribution a {
       color: hsl(228, 45%, 44%);
     }
   </style>
 </head>
-
 <body>
   <div class="container">
     <img class="desktop-background" src="images/bg-intro-desktop.png" alt="">
@@ -43,25 +39,31 @@
           <p class="try-text"><span class="span-try">Try it free 7 days</span> then $20/mo. thereafter</p>
         </div>
         <div class="input-field">
+          <form class="" action="index.html" method="post">
           <input class="fn" type="text" placeholder="First Name">
+          <input class="ln" type="text" placeholder="Last Name">
+          <input class="ea" type="text" placeholder="Email Address">
+          <input class="pw" type="text" placeholder="Password">
+          </form>
+
           <div class="error first-name">
             <img class="error-img" src="images/icon-error.svg" alt="">
-            <p class="error-text">First Name cannot be empty</p>
+            <p class="error-text">Please fill appropraitely!</p>
           </div>
-          <input class="ln" type="text" placeholder="Last Name">
+
           <div class="error last-name">
             <img class="error-img" src="images/icon-error.svg" alt="">
-            <p class="error-text">Last Name cannot be empty</p>
+            <p class="error-text">Please fill appropraitely!</p>
           </div>
-          <input class="ea" type="text" placeholder="Email Address">
+
           <div class="error email">
             <img class="error-img error-email" src="images/icon-error.svg" alt="">
-            <p class="error-text">Email Address cannot be empty</p>
+            <p class="error-text">Please fill appropraitely!</p>
           </div>
-          <input class="pw" type="text" placeholder="Password">
+
           <div class="error password">
             <img class="error-img error-password" src="images/icon-error.svg" alt="">
-            <p class="error-text">Password cannot be empty</p>
+            <p class="error-text">Please fill appropraitely!</p>
           </div>
           <button type="button" name="button">CLAIM YOUR FREE TRIAL</button>
 
@@ -70,20 +72,18 @@
 
       </div>
     </div>
-
     <footer>
       <p class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
         Coded by <a href="https://github.com/rephidimC">Victor Adeleke AFOLAYAN</a>.
       </p>
     </footer>
-    <script src="index.js" charset="utf-8"></script>
   </div>
 
 
 
 
-
+<script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>
